@@ -1,0 +1,30 @@
+### 模型配置 ###
+model_name_or_path: /root/autodl-fs/LLaMA-Factory/models/Qwen3.5-4B
+trust_remote_code: true
+### 微调方法 ###
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_rank: 64
+lora_alpha: 128
+lora_target: all
+ ### 数据集配置 ###
+dataset: andriatria_男科,IM_内科,obgyn_妇产科,oncology_肿瘤科,pediatric_儿科,surgical_外科,dialogue_seed_task,dialogue_task,GenMedGPT_5k,HealthCareMagic_100k,opengpt_qa,opengpt_task,opengpt_chat,llama_data
+template: qwen3
+cutoff_len: 2048
+preprocessing_num_workers: 8
+default_system: "你是一位专业的医生，请详细、耐心地回答患者的问题，包括病因分析、治疗建议、注意事项等方面。"
+### 训练参数 ###
+output_dir: ./output/qwen35_medical_lora
+per_device_train_batch_size: 2
+gradient_accumulation_steps: 8
+learning_rate: 1.0e-4
+num_train_epochs: 3.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+logging_steps: 10
+save_steps: 500
+### 显存优化 ###
+bf16: true
+gradient_checkpointing: true
+max_samples: 1000

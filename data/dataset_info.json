@@ -1,0 +1,116 @@
+{
+  "andriatria_男科": {
+    "file_name": "andriatria_男科.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "IM_内科": {
+    "file_name": "IM_内科.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "obgyn_妇产科": {
+    "file_name": "obgyn_妇产科.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "oncology_肿瘤科": {
+    "file_name": "oncology_肿瘤科.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "pediatric_儿科": {
+    "file_name": "pediatric_儿科.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "surgical_外科": {
+    "file_name": "surgical_外科.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "dialogue_seed_task": {
+    "file_name": "dialogue_seed_task.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "dialogue_task": {
+    "file_name": "dialogue_task.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "GenMedGPT_5k": {
+    "file_name": "GenMedGPT-5k.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "HealthCareMagic_100k": {
+    "file_name": "HealthCareMagic-100k.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "opengpt_qa": {
+    "file_name": "prepared_generated_data_for_nhs_uk_qa.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "opengpt_task": {
+    "file_name": "prepared_generated_data_for_medical_tasks.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "opengpt_chat": {
+    "file_name": "prepared_generated_data_for_nhs_uk_conversations.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "llama_data": {
+    "file_name": "llama_data.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
+
+}
