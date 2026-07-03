@@ -288,9 +288,9 @@ max_samples: 1000
 ```
 
 **参数解读：**
-• `lora_rank: 64` —— LoRA 秩，越大表达能力越强，但显存占用也越大
-• `lora_target: all` —— 对所有线性层应用 LoRA，效果更好
-• `gradient_checkpointing: true` —— 用时间换空间，降低显存占用
+- `lora_rank: 64` —— LoRA 秩，越大表达能力越强，但显存占用也越大
+- `lora_target: all` —— 对所有线性层应用 LoRA，效果更好
+- `gradient_checkpointing: true` —— 用时间换空间，降低显存占用
 
 一切就绪，启动训练：
 
