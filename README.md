@@ -1,6 +1,6 @@
 # Qwen3.5-4B 微调实战：LLaMA-Factory 打造医疗AI助手
 
-**核心工具链：**LLaMA-Factory + [Qwen3.5-4B](https://zhida.zhihu.com/search?content_id=272182167&content_type=Article&match_order=1&q=Qwen3.5-4B&zhida_source=entity) + 医疗问答数据集
+核心工具链：LLaMA-Factory + [Qwen3.5-4B](https://zhida.zhihu.com/search?content_id=272182167&content_type=Article&match_order=1&q=Qwen3.5-4B&zhida_source=entity) + 医疗问答数据集
 
 Qwen3.5 是阿里最新发布的千问系列模型，4B 参数量刚好卡在"效果够用 + 显存友好"的甜蜜点；LLaMA-Factory 则是目前开源社区最成熟的微调框架，上手简单，坑也相对少。
 
@@ -52,7 +52,7 @@ print(f"模型已下载到: {model_dir}")
 modelscope download --model Qwen/Qwen3.5-4B --local_dir ./models/Qwen3.5-4B
 ```
 
-**💡 小贴士：**模型大约 9.3GB，建议挂个代理或者选择网络好的时间段下载。下载完记得检查一下文件完整性。
+💡 小贴士：模型大约 9.3GB，建议挂个代理或者选择网络好的时间段下载。下载完记得检查一下文件完整性。
 
 ## 准备医疗数据集
 
